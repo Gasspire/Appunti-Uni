@@ -1975,5 +1975,9 @@
       "lastError": "Google Calendar sync is not ready"
     }
   ],
+<<<<<<< HEAD
   "lastNotifiedReleaseVersion": "4.15.0"
+=======
+  "lastNotifiedReleaseVersion": "4.16.1"
+>>>>>>> 0bae557 (Auto-sync: 2026-11-05 17:23:34)
 }
