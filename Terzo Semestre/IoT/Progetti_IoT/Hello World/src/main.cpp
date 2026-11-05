@@ -31,7 +31,7 @@ void onMesh(const EspMeshEvent &e) {
   case EspMeshEventType::Disconnected:
     if (!SONO_ROOT) {
       stato = SYNC; // Torno nello stato di sincronizzazione/attesa
-      Serial.printf("[" MACSTR "] Disconnesso dalla rete mesh!",MAC2STR(e.from));
+      Serial.printf("[" MACSTR "] Disconnesso dalla rete mesh!", MAC2STR(e.from));
     }
     break;
 
@@ -132,7 +132,8 @@ void loop() {
   espmesh->update();
   // Ogni 500ms controllo se sono connesso a tutti i nodi (solo sul Root)
   if (IoTBoard::runEvery(500, 2)) {
-    // Se sono il Root, verifico se sono connessi tutti i nodi (compreso il Root stesso)
+    // Se sono il Root, verifico se sono connessi tutti i nodi (compreso il Root
+    // stesso)
     if (SONO_ROOT) {
       uint8_t nodes[10][6];
       numNodi = espmesh->getNodes(nodes, 10);
@@ -189,6 +190,7 @@ void loop() {
     } else {
       // Le Station inviano la loro temperatura
       if (espmesh->isConnected()) {
+        temp = temperatureRead();
         String s = "Temp: " + String(temp, 1) + " C";
         espmesh->broadcast(s.c_str(), s.length());
         Serial.println("[TX broadcast] " + s);
