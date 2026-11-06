@@ -20,6 +20,7 @@ Una volta che si accende il timer su TIMX_CHY spunta fuori il segnale
 Alternate function:
 ogni pin ha la possibilità di comportarsi come GPIO ma quando lo impostiamo per alternate function, ogni pin può avere fino a 16 comportamenti diversi (ciò implica che il pin è collegato a periferiche diverse)
 Table 9 alternate function (STM32)
-
+![[Pasted image 20261106124417.png]]
 ## Input Capture
 
+//vedi codici

@@ -46,3 +46,5 @@ Se ragioniamo in termini di frequenza di incremento avremo che $f_{inc} = 1 / T_
 84000 non va in 16 bit, quindi dobbiamo dividere 
 
 L'autoreload register fa scattare upload sul counter e controlla == non >=-
+
+(VEDI DA MARCO)
