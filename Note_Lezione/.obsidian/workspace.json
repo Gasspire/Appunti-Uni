@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9226e83f7dbf918f",
+        "id": "1f800ce4e173d181",
         "type": "tabs",
         "children": [
           {
-            "id": "9c517173cbc55110",
+            "id": "689feef39950d0d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Quality/Lezione 5.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Lezione 5"
+              "title": "Nuova scheda"
             }
           }
         ]
@@ -200,10 +196,10 @@
       "obsidian-spaced-repetition:Rivisita schede": false
     }
   },
-  "active": "9c517173cbc55110",
+  "active": "689feef39950d0d9",
   "lastOpenFiles": [
-    "Embedded/Lezione 7.md",
     "Quality/Lezione 5.md",
+    "Embedded/Lezione 7.md",
     "Embedded/Lezione 8.md",
     "Embedded/Immagini/Pasted image 20261106124417.png",
     "Embedded/Lezione 1.md",
