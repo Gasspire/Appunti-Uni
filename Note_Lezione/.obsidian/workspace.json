@@ -13,12 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Quality/Lezione 5.md",
+=======
+                "file": "Embedded/Lezione 7.md",
+>>>>>>> 5b7e94601b883f29244ea2efbc5aa9ee7708ba9d
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Lezione 5"
+=======
+              "title": "Lezione 7"
+>>>>>>> 5b7e94601b883f29244ea2efbc5aa9ee7708ba9d
             }
           }
         ]
@@ -200,7 +208,11 @@
       "obsidian-spaced-repetition:Rivisita schede": false
     }
   },
+<<<<<<< HEAD
   "active": "689feef39950d0d9",
+=======
+  "active": "99ce3f8fbea4a4a2",
+>>>>>>> 5b7e94601b883f29244ea2efbc5aa9ee7708ba9d
   "lastOpenFiles": [
     "Quality/Lezione 5.md",
     "Embedded/Lezione 7.md",
