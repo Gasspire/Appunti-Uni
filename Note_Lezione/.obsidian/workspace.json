@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IoT/Prova 1.md",
+                "file": "Embedded/Lezione 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prova 1"
+              "title": "Lezione 7"
             }
           }
         ]
@@ -205,7 +205,7 @@
       "obsidian-spaced-repetition:Rivisita schede": false
     }
   },
-  "active": "7f5f74be22b7139a",
+  "active": "99ce3f8fbea4a4a2",
   "lastOpenFiles": [
     "IoT/Prova 1.md",
     "IoT/Lezione 7.md",
