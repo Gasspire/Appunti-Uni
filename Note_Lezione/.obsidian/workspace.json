@@ -1,32 +1,24 @@
 {
   "main": {
-    "id": "7d036b9f910c511d",
+    "id": "7f51249429f1327f",
     "type": "split",
     "children": [
       {
-        "id": "1f800ce4e173d181",
+        "id": "9afa565497c5a5b4",
         "type": "tabs",
         "children": [
           {
-            "id": "689feef39950d0d9",
+            "id": "db14621181c3292b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Quality/Lezione 5.md",
-=======
-                "file": "Embedded/Lezione 7.md",
->>>>>>> 5b7e94601b883f29244ea2efbc5aa9ee7708ba9d
+                "file": "Embedded/Lezione 8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Lezione 5"
-=======
-              "title": "Lezione 7"
->>>>>>> 5b7e94601b883f29244ea2efbc5aa9ee7708ba9d
+              "title": "Lezione 8"
             }
           }
         ]
@@ -35,28 +27,30 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f4996f827eeff3f7",
+    "id": "325fa5084c2ffb87",
     "type": "split",
     "children": [
       {
-        "id": "eb3a952ca28ec343",
+        "id": "1cc17b804cdef272",
         "type": "tabs",
         "children": [
           {
-            "id": "0a818f1290de10df",
+            "id": "4696efb5922ab8c7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Esplora risorse"
+              "title": "Esplora file"
             }
           },
           {
-            "id": "b6b92228431f6cf1",
+            "id": "2a19dc528edbcb26",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -73,11 +67,14 @@
             }
           },
           {
-            "id": "a1ea50d54d58f5fd",
+            "id": "c52777d7b32fbbef",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Segnalibri"
             }
@@ -89,19 +86,20 @@
     "width": 300
   },
   "right": {
-    "id": "3e361bc5b3bff62d",
+    "id": "ef28891cbf7abd2b",
     "type": "split",
     "children": [
       {
-        "id": "89488edfbd999484",
+        "id": "fe476aac2ee3c6be",
         "type": "tabs",
         "children": [
           {
-            "id": "bcca8a5fed2bb080",
+            "id": "fea9635d86d3000d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Embedded/Lezione 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,11 +113,12 @@
             }
           },
           {
-            "id": "c5dc4739d78b1f09",
+            "id": "e830cd199ca5846f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Embedded/Lezione 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -128,7 +127,7 @@
             }
           },
           {
-            "id": "1daede6d9a160db8",
+            "id": "6a57186754797357",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -143,7 +142,7 @@
             }
           },
           {
-            "id": "80195f04cf93c3a6",
+            "id": "12641bd7f1d3c0a1",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -157,11 +156,12 @@
             }
           },
           {
-            "id": "8e8af809676b7acd",
+            "id": "ad7072d0f50259e9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Embedded/Lezione 8.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -171,7 +171,7 @@
             }
           },
           {
-            "id": "6255d20f50469e5b",
+            "id": "e39e2d3d1a1c6915",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -185,15 +185,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Apri selezione rapida": false,
+      "switcher:Apri selettore rapido": false,
       "graph:Apri vista grafo": false,
       "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota del giorno": false,
+      "daily-notes:Apri nota giornaliera": false,
       "templates:Inserisci modello": false,
       "command-palette:Apri riquadro comandi": false,
       "bases:Crea nuova Base": false,
@@ -208,19 +208,20 @@
       "obsidian-spaced-repetition:Rivisita schede": false
     }
   },
-<<<<<<< HEAD
-  "active": "689feef39950d0d9",
-=======
-  "active": "99ce3f8fbea4a4a2",
->>>>>>> 5b7e94601b883f29244ea2efbc5aa9ee7708ba9d
+  "active": "db14621181c3292b",
   "lastOpenFiles": [
-    "Quality/Lezione 5.md",
-    "Embedded/Lezione 7.md",
+    "Embedded/Immagini/Pasted image 20261108185705.png",
+    "Embedded/Immagini/Pasted image 20261108185655.png",
+    "Embedded/Immagini/Pasted image 20261108185643.png",
+    "Embedded/Immagini/Pasted image 20261108183114.png",
+    "Embedded/Immagini/Pasted image 20261108182931.png",
+    "Embedded/Immagini/Pasted image 20261108182916.png",
+    "Embedded/Immagini/Pasted image 20261108181022.png",
+    "Embedded/Immagini/Pasted image 20261108180640.png",
     "Embedded/Lezione 8.md",
-    "Embedded/Immagini/Pasted image 20261106124417.png",
-    "Embedded/Lezione 1.md",
-    "Embedded/Immagini/Pasted image 20261106112319.png",
-    "Embedded/Immagini/Pasted image 20261106112135.png",
-    "Embedded/Immagini/Pasted image 20261106112053.png"
+    "Embedded/Lezione 7.md",
+    "Embedded/Immagini/Pasted image 20261108164349.png",
+    "Embedded/Immagini/Pasted image 20261108164200.png",
+    "Embedded/Immagini/Pasted image 20261108163725.png"
   ]
 }
