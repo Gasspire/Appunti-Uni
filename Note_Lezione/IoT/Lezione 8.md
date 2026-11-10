@@ -24,3 +24,43 @@ SDP quello per il suono
 SPP, HFP e HID sono layer fatti apposta che permettono la comunicazione seriale hid simula la tastiera (ad esempio)
 
 2.4 GHz è la più utilizzata perché è libera e in termini di disturbi e distanza è ggwp. L'antenna poi già c'è.
+Attualmente le onde elettromagnetica è quella più sensata per il momento per il wireless
+
+Bluetooth è cifrato
+Pairing/Bonding
+
+## BLE
+Definiamo dei servizi per le periferiche. 
+inizialmente diversa da Bluetooth, poi integrata.
+![[Pasted image 20261110175729.png]]
+
+Bluetooth normale si utilizza ancora per le macchine (?) o per trasferimento file o per audio.
+
+![[Pasted image 20261110175843.png]]
+Protocollo
+![[Pasted image 20261110180031.png]]
+
+GAP: quello che definisce il ruolo, la discovery e le connessioni.
+ATT: è un blocco che permette a un dispositivo cosa è un servizio e cosa è un attributo.
+SMP: si occupa del pairing, scambio chiavi ecc.
+L2CAP permette di comunicare ATT e SMP
+GATT è quello che ci permette di definire il servizio e ciò che è caratteristica del servizio.
+
+#### GAP
+![[Pasted image 20261110180229.png]]
+
+#### Advertising
+![[Pasted image 20261110180452.png]]
+
+esiste una versione estesa che dovrebbe riuscire ad avere un PDU di 1600 Byte.
+
+In ADV data possiamo avere:
+![[Pasted image 20261110180600.png]]
+
+GAT
+![[Pasted image 20261110180716.png]]
+
+Il gestore è un facade
+Posso creare i miei servizi 
+
+Notify è il permesso che ha reso broken BLE
