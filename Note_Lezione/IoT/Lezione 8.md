@@ -64,3 +64,6 @@ Il gestore è un facade
 Posso creare i miei servizi 
 
 Notify è il permesso che ha reso broken BLE
+
+GATT funziona con ATT
+![[Pasted image 20261110182003.png]]
