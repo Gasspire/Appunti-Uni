@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IoT/Lezione 8.md",
+                "file": "Quality/Lezione 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lezione 8"
+              "title": "Lezione 6"
             }
           }
         ]
@@ -206,9 +206,10 @@
       "obsidian-spaced-repetition:Rivisita schede": false
     }
   },
-  "active": "e39e2d3d1a1c6915",
+  "active": "db14621181c3292b",
   "lastOpenFiles": [
     "IoT/Lezione 8.md",
+    "Quality/Lezione 6.md",
     "IoT/Immagini/Pasted image 20261110182003.png",
     "IoT/Immagini/Pasted image 20261110182000.png",
     "IoT/Immagini/Pasted image 20261110180716.png",
