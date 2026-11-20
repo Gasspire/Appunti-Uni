@@ -96,3 +96,14 @@ Se un utente preme **più tasti contemporaneamente sulla stessa colonna** (es. T
 - **Soluzione con Open-Drain + Pull-up:** Utilizzando la modalità Open-Drain sulle righe (dove `0` = collegato a GND, e `1` = aperto/flottante):
     - La riga inattiva non forza tensione positiva ($V_{DD}$), ma rimane semplicemente scollegata (flottante).
     - Premere più tasti collegherà semplicemente la colonna alla riga attiva a GND, **senza alcun rischio di corto circuito**.
+---
+- **A riposo (nessun tasto premuto):**
+    - **Colonne (ingressi con Pull-Up):** Sono tutte a **`1`** ($3.3\text{ V}$).
+    - **Righe (uscite Open-Drain):** Non sono tutte fisse a `1`, ma **una alla volta** viene portata a **`0`** ($GND$) dal ciclo `for` dello scan che gira continuamente in background, mentre le altre 3 sono a `1` (alta impedenza).
+        
+- **Premi un pulsante (es. Riga 0, Colonna 0):**
+    - Il pulsante fa semplicemente da **ponte fisico** (un filo) tra quella riga e quella colonna. Da solo, il pulsante non ha un valore `0` o `1`: si limita a collegare i due fili.
+    - Finché lo scan sta controllando le righe `1, 2, 3` (e quindi la Riga 0 è ancora a `1` / scollegata), **la colonna resta a `1`**.
+- **Lo scan arriva alla Riga 0 (la porta a `0`):**
+    - È **la riga a `0` ($GND$)** che, attraverso il pulsante chiuso, "tira giù" a `0` la colonna (vincendo sulla resistenza di pull-up che cercava di tenerla a `1`).
+    - A questo punto la colonna diventa **`0`**, il microcontrollore la legge con `GPIO_read() == 0` e capisce che è stato premuto il tasto all'incrocio tra la riga che aveva appena messo a `0` e la colonna che ha appena letto a `0`.
