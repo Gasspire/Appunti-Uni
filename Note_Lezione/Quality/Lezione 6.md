@@ -9,3 +9,22 @@ Best practice per scrivere codice :d
 
 ---
 ## DRY - Don't Repeat Yourself
+Scrivi le funzioni.
+
+--- 
+## RUG - Repeat Until Good
+
+Alcune volte può avere senso ripetere per rendere meglio il codice (?)
+
+---
+## KISS - Keep It Simple Stupid
+Scrivi la funzione semplice.
+
+---
+## SoC - Separation Of Concerns
+Separa i compiti anche a livello alto. (come Single Responsibility)
+
+## Clean Code
+
+- Non usare numeri magici, utilizza costanti esplicative
+- 
