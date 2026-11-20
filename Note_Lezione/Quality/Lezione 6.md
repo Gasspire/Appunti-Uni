@@ -27,4 +27,6 @@ Separa i compiti anche a livello alto. (come Single Responsibility)
 ## Clean Code
 
 - Non usare numeri magici, utilizza costanti esplicative
-- 
+- Pochi parametri
+- No commenti inutili 
+- Non usare flag in funzioni
